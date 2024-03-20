@@ -1,3 +1,4 @@
+/*In the package.json file, make sure to have 'type=module' else the import won't work and 'main=welcome.js' or whatever filename you use for the below code*/
 import inquirer from "inquirer";
 import qr from "qr-image";
 import fs from "fs";
