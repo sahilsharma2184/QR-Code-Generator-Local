@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    color: hotpink;
+  }
+
+h1
+{
+    background: hotpink;
+    border-style: solid;
+    border-width: 15px;
+    border-color: hotpink;
+    border-radius: 15px;
+}
+
+.box{
+    color: white;
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Copy{
+    margin-left: 10px;
+  }
+
+  .Made{
+    margin-right: 10px;
+  }
+
+  .footer{
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button{
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    padding: 10px 24px;
+    border-radius: 6px;
+    color: white;
+    background-color: hotpink;
+    position: fixed;
+    top: 15px;
+    right: 10px;
+    font-size:medium;
+    margin-left: 10px;
+  }
+
+  .Intro{
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    color: white;
+}
+.Intro{
+    color: gray;
+    margin-top: 10px;
+    font-size: large;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+}
+
+.sec{
+    color: grey;
+    margin-top: 1px;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    font-size: large;
+}
